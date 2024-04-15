@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GameTech</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flipcard.css">
+
+    <script src="js/navbar.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/accordion.js"></script>
+  </head>
+  <body>
+    <!--Top Brand Bar-->
+    <div class="topbanner">
+      <img class="navControlButton" id="navControl" onclick="openNav()" src="icon/bars-solid.svg">
+      <p>GameTech</p>
+    </div>
+    
+    <!--Side Nav Bar-->
+    <div class="navbar" id="navbar">
+      <a href="shop.html"><div class="nav-item">Shop</div></a>
+      <a href="about.html"><div class="nav-item">About</div></a>
+    </div>
+    <main id="main">
+      <!--Main Content-->
+      <div class="about-grid">
+        <div class="about-item about-item-flex-vertical">
+          <h2>ABOUT US</h2>
+          <p class="about-description">
+            Welcome to GameTech, where gaming meets innovation. At GameTech, we are passionate about enhancing your gaming experience through cutting-edge peripherals designed with precision, performance, and style in mind.
+
+Established with a vision to revolutionize the gaming industry, we pride ourselves on pushing the boundaries of technological advancement. From sleek and ergonomic gaming mice to immersive and high-fidelity headsets, every product in our lineup is crafted with meticulous attention to detail to empower gamers of all levels.
+        </div>
+
+        <div class="accordion-container">
+          <div class="accordion-item accordion-top-corners" onclick="toggleAccordion(this)">
+            Our Objectives
+            <div class="accordion-content">
+              Innovation Leadership: Lead the industry in innovation by consistently introducing cutting-edge technologies and features into our products.<br><br>
+              Customer Satisfaction: Exceed customer expectations through exceptional service, support, and responsiveness to feedback, ensuring maximum satisfaction.<br><br>
+              Global Expansion: Expand our market reach to new territories, ensuring worldwide accessibility to our products, while adapting to regional preferences and needs.
+            </div>
+          </div>
+
+          <div class="accordion-item accordion-top-corners" onclick="toggleAccordion(this)">
+            Contact Us!
+            <div class="accordion-content">
+              <p>Tel: 012-3456789012</p>
+              <p>Gmail: julianwenjie.y@ypccollege.edu.my</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </main>
+  </body>
+</html>
